@@ -7,7 +7,7 @@ const app = express();
 
 // Define a simple GET route
 app.get('/', (req, res) => {
-  res.send('Hello, Express!');
+  res.send('Hello, Express! from 3001');
 });
 
 // Set the port for the server to listen on
